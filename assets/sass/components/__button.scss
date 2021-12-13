@@ -1,0 +1,31 @@
+/*====Button====*/
+.btn{
+	background: $button;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: candara;
+	letter-spacing: 1px;
+	line-height: 1;
+	margin-bottom: 0;
+	padding: 2rem 2rem;
+	text-align: center;
+	text-transform: capitalize;
+	transition: all 0.3s ease ;
+	vertical-align: middle;
+	border: 2px solid transparent;
+}
+.btn-padding{
+	
+}
+.btn-border:hover{
+	background: #ff68a3;
+	border: none;
+}
+.btn:hover{
+	color: #fff;
+	background: red;
+}

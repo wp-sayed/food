@@ -1,0 +1,121 @@
+/* ============================ 
+        Banner area start 
+==============================*/
+
+.banner{
+    width: 100%;
+    background-image: url('../media/img/bg/bg-1.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+     .banner-content{
+        margin-top: 18rem;
+     }
+}
+/* ============================ 
+        Counter area start 
+==============================*/
+.counter{
+    background: #e74c3c;
+    padding: 5rem 0rem;
+    h2{
+        font-size: 4rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    p{
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+}
+/* ============================ 
+        About area start 
+==============================*/
+.about{
+    .card{
+        border-radius: 2rem;
+        img{
+            border-radius: 2rem;
+        }
+    }
+    .text-content{
+        padding-left: 2rem;
+    }
+}
+
+/* ============================ 
+        foodtype area start 
+==============================*/
+.food-type{
+    .text-content{
+        .list{
+            li{
+                font-size: 1.5rem;
+                color: red;
+                line-height: 2.5rem;
+                margin-left: 3rem;
+            }
+        }
+    }
+}
+/* ============================ 
+        story area start 
+==============================*/
+
+.story{
+    width: 100%;
+    background-image: url('../media/img/bg/bg-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 44rem;
+    text-align: center;
+    background-size: cover;
+    .text-content{
+        width: 70%;
+        margin: auto;
+        padding-top: 8rem;
+    }
+}
+/* ============================ 
+        explore area start 
+==============================*/
+.explore-food{
+    .text-content{
+        width: 70%;
+        margin: auto;
+        padding-top: 8rem;
+        text-align: center;
+    }
+    .card{
+        border: none;
+        background: transparent;
+        border-radius:  0.9375rem;
+        img{
+            border-radius:  0.9375rem;
+            object-fit: cover;
+        }
+        h4{
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        span{
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 1rem;
+            border-bottom:  0.0625rem solid red;
+            del{
+                color: red;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+/*============================ 
+  testimonial-section food area start 
+==============================*/

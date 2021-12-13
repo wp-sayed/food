@@ -1,0 +1,32 @@
+/*sticky header*/
+// header{
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	z-index: 999;
+// }
+// header{
+// 	&.sticky{
+// 		position: fixed;
+// 	    background: #000;
+//    }
+// }
+
+.header{
+	.navbar{
+		.collapse{
+			.navbar-nav{
+				.nav-item{
+					margin: 0px 7px;
+					.nav-link{
+						font-size: 2rem;
+						color: #e74c3c;
+						font-weight: bold;
+						font-family: candara;
+					}
+				}
+			}
+		}
+	}
+}

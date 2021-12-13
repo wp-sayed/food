@@ -1,0 +1,71 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: mdsalim400@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+
+===================================================================================
+  Table of Contents
+===================================================================================
+1.  General Styles
+2.  Top Navbar
+3.  Header
+4.  Sidemenu
+5.  Megamenu
+6.  Breadcrumb
+7.  Sections
+8.  Controls
+9.  Carousel
+10. Product Item
+11. Pages : Home
+12. Pages : Single Product
+13. Pages : Shopping Cart
+
+*/
+
+
+
+
+// Utils Loads 
+@import "utils/_variables";
+@import "utils/_helper";
+@import "utils/_mixins";
+@import "utils/_functions";
+
+
+
+// Base load 
+@import "base/_reset";
+@import "base/_typography";
+
+
+// Components Load 
+@import "components/_button";
+@import "components/_carousel";
+@import "components/_title";
+
+
+// Layouts Load
+@import "layouts/_topbar";
+@import "layouts/_header";
+@import "layouts/_menu";
+@import "layouts/_grid";
+@import "layouts/_forms";
+@import "layouts/_sidebar";
+@import "layouts/_footer";
+
+
+// Pages Load
+@import "pages/_home";
+
+
+// Themes Load 
+@import "themes/_themes";
+@import "themes/_admin";
+
+
+// Vendors Load
+@import "vendors/_bootstrap";
+
+

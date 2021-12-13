@@ -1,0 +1,54 @@
+
+/* XL (laptop) */
+@media screen  and (max-width: 1500px) {
+
+}
+
+/* LG Device */
+@media screen and (max-width: 1200px) {
+
+
+}
+
+
+/* MD Device*/
+@media screen and (max-width: 991px) {
+	
+}
+
+
+/*  small Device*/
+@media screen and (max-width: 767px) {
+	/*food-type*/
+	.food-type .text-content p{
+		font-size: 2.5rem
+	}
+	/*story section*/
+	.story{
+		height: auto;
+		padding: 2rem 0rem;
+	}
+	.story .text-content{
+		width: 100%;
+		margin: auto;
+	}
+	.story .text-content p{
+		font-size: 2.5rem;
+	}
+	
+
+}
+
+/* Extra  Small Device*/
+@media  screen and (max-width: 576px) {
+
+
+}
+@media  screen and (max-width: 450px) {
+	.testimonial-section .slider-active .slider-item img{
+		max-width: 40%;
+	}
+	.banner .banner-content{
+		margin-top: 3rem;
+	}
+}

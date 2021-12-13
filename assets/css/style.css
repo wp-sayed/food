@@ -1,0 +1,551 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: mdsalim400@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+
+===================================================================================
+  Table of Contents
+===================================================================================
+1.  General Styles
+2.  Top Navbar
+3.  Header
+4.  Sidemenu
+5.  Megamenu
+6.  Breadcrumb
+7.  Sections
+8.  Controls
+9.  Carousel
+10. Product Item
+11. Pages : Home
+12. Pages : Single Product
+13. Pages : Shopping Cart
+
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  font-family: roboto;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: red;
+  font-family: candara;
+}
+
+p {
+  font-size: 2rem;
+}
+
+*::-moz-selection {
+  background: #d6b161;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+*::-moz-placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+a,
+.btn {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+/*Default margin & Padding*/
+.mt-10 {
+  margin-top: 1rem;
+}
+
+.mt-15 {
+  margin-top: 1.5rem;
+}
+
+.mt-20 {
+  margin-top: 2rem;
+}
+
+.mt-25 {
+  margin-top: 2.5rem;
+}
+
+.mt-30 {
+  margin-top: 3rem;
+}
+
+.mt-35 {
+  margin-top: 3.5rem;
+}
+
+.mt-40 {
+  margin-top: 4rem;
+}
+
+.mt-45 {
+  margin-top: 4.5rem;
+}
+
+.mt-50 {
+  margin-top: 5rem;
+}
+
+.mt-60 {
+  margin-top: 6rem;
+}
+
+.mt-70 {
+  margin-top: 7rem;
+}
+
+.mt-80 {
+  margin-top: 8rem;
+}
+
+.mt-90 {
+  margin-top: 9rem;
+}
+
+.mt-100 {
+  margin-top: 10rem;
+}
+
+/*margin bottom*/
+.mb-10 {
+  margin-bottom: 1rem;
+}
+
+.mb-15 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
+.mb-25 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-30 {
+  margin-bottom: 3rem;
+}
+
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
+.mb-50 {
+  margin-bottom: 5rem;
+}
+
+.mb-60 {
+  margin-bottom: 6rem;
+}
+
+.mb-70 {
+  margin-bottom: 7rem;
+}
+
+.mb-80 {
+  margin-bottom: 8rem;
+}
+
+.mb-90 {
+  margin-bottom: 9rem;
+}
+
+.mb-100 {
+  margin-bottom: 10rem;
+}
+
+/*padding top*/
+.pt-10 {
+  padding-top: 1rem;
+}
+
+.pt-15 {
+  padding-top: 1.5rem;
+}
+
+.pt-20 {
+  padding-top: 2rem;
+}
+
+.pt-25 {
+  padding-top: 2.5rem;
+}
+
+.pt-30 {
+  padding-top: 3rem;
+}
+
+.pt-40 {
+  padding-top: 4rem;
+}
+
+.pt-50 {
+  padding-top: 5rem;
+}
+
+.pt-60 {
+  padding-top: 6rem;
+}
+
+.pt-70 {
+  padding-top: 7rem;
+}
+
+.pt-80 {
+  padding-top: 8rem;
+}
+
+.pt-90 {
+  padding-top: 9rem;
+}
+
+.pt-100 {
+  padding-top: 10rem;
+}
+
+/*padding bottom*/
+.pb-10 {
+  padding-bottom: 1rem;
+}
+
+.pb-15 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 2rem;
+}
+
+.pb-25 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-30 {
+  padding-bottom: 3rem;
+}
+
+.pb-40 {
+  padding-bottom: 4rem;
+}
+
+.pb-50 {
+  padding-bottom: 5rem;
+}
+
+.pb-60 {
+  padding-bottom: 6rem;
+}
+
+.pb-70 {
+  padding-bottom: 7rem;
+}
+
+.pb-80 {
+  padding-bottom: 8rem;
+}
+
+.pb-90 {
+  padding-bottom: 9rem;
+}
+
+.pb-100 {
+  padding-bottom: 10rem;
+}
+
+/*=======Fontsize========*/
+/*====Button====*/
+.btn {
+  background: #ff68a3;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: candara;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 2rem 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  border: 2px solid transparent;
+}
+
+.btn-border:hover {
+  background: #ff68a3;
+  border: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background: red;
+}
+
+.testimonial-section .slider-active .slider-item {
+  padding: 5rem 5rem;
+  background: #fff;
+  border-radius: 1rem;
+}
+.testimonial-section .slider-active .slider-item img {
+  border-radius: 50%;
+  max-width: 20%;
+  display: block;
+  margin: auto;
+}
+.testimonial-section .slider-active .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1%;
+}
+.testimonial-section .slider-active .owl-dots .owl-dot {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: red;
+  border-radius: 50%;
+  margin: .5rem;
+}
+.testimonial-section .slider-active .owl-dots .owl-dot.active {
+  background: green;
+}
+
+.section-title h2 {
+  font-size: 4rem;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.section-title h2::before {
+  content: '';
+  display: block;
+  width: 7rem;
+  height: 3px;
+  background: green;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+/*sticky header*/
+.header .navbar .collapse .navbar-nav .nav-item {
+  margin: 0px 7px;
+}
+.header .navbar .collapse .navbar-nav .nav-item .nav-link {
+  font-size: 2rem;
+  color: #e74c3c;
+  font-weight: bold;
+  font-family: candara;
+}
+
+/* ============================ 
+        Banner area start 
+==============================*/
+.banner {
+  width: 100%;
+  background-image: url("../media/img/bg/bg-1.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.banner .banner-content {
+  margin-top: 18rem;
+}
+
+/* ============================ 
+        Counter area start 
+==============================*/
+.counter {
+  background: #e74c3c;
+  padding: 5rem 0rem;
+}
+.counter h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+}
+.counter p {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* ============================ 
+        About area start 
+==============================*/
+.about .card {
+  border-radius: 2rem;
+}
+.about .card img {
+  border-radius: 2rem;
+}
+.about .text-content {
+  padding-left: 2rem;
+}
+
+/* ============================ 
+        foodtype area start 
+==============================*/
+.food-type .text-content .list li {
+  font-size: 1.5rem;
+  color: red;
+  line-height: 2.5rem;
+  margin-left: 3rem;
+}
+
+/* ============================ 
+        story area start 
+==============================*/
+.story {
+  width: 100%;
+  background-image: url("../media/img/bg/bg-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 44rem;
+  text-align: center;
+  background-size: cover;
+}
+.story .text-content {
+  width: 70%;
+  margin: auto;
+  padding-top: 8rem;
+}
+
+/* ============================ 
+        explore area start 
+==============================*/
+.explore-food .text-content {
+  width: 70%;
+  margin: auto;
+  padding-top: 8rem;
+  text-align: center;
+}
+.explore-food .card {
+  border: none;
+  background: transparent;
+  border-radius: 0.9375rem;
+}
+.explore-food .card img {
+  border-radius: 0.9375rem;
+  object-fit: cover;
+}
+.explore-food .card h4 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.explore-food .card span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid red;
+}
+.explore-food .card span del {
+  color: red;
+  margin-left: 1rem;
+}
+
+/*============================ 
+  testimonial-section food area start 
+==============================*/
+
+/*# sourceMappingURL=style.css.map */
